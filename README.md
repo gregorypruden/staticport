@@ -9,8 +9,8 @@ Maybe it should be called jBof.  It should organize the folders into categories 
 ##### OPTIONS could be:
 `-theme <sometheme>`
 `-ignorenonimages`
-`-rootfolder`
-`-contactformurl`
+`-rootfolder <folder>`
+`-contactformurl <url>`
 
 Maybe it assumes the images are in an images folder in `[path]` and uses that as the root unless `-rootfolder` is provided.  Otherwise assumes folders in path are the categories in the resulting page.
 
