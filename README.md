@@ -6,13 +6,13 @@ Maybe it should be called jBof.  It should organize the folders into categories 
 
 `staticport OPTIONS [path]`
 
-### OPTIONS could be:
+##### OPTIONS could be:
 `-theme <sometheme>`
 `-ignorenonimages`
 `-rootfolder`
 `-contactformurl`
 
-Maybe it assumes the images are in an images folder in [path] and uses that as the root unless -rootfolder is provided.  Otherwise assumes folders in path are the categories in the resulting page.
+Maybe it assumes the images are in an images folder in `[path]` and uses that as the root unless `-rootfolder` is provided.  Otherwise assumes folders in path are the categories in the resulting page.
 
 [path]
   |
@@ -27,9 +27,9 @@ Maybe it assumes the images are in an images folder in [path] and uses that as t
         Project1
         Project2
 
-if it finds a file with the same name except txt or json or html it will use that to caption the image.  This behavior would be negated by using the -ignorenonimages switch.
+if it finds a file with the same name except txt or json or html it will use that to caption the image.  This behavior would be negated by using the `-ignorenonimages` switch.
 
 It should have a default theme that is applied.  That theme should be very nice with lots of options.  
 
-The -contactformurl would point to an api or lambda function to send the contact email or signup for a email list.
+The `-contactformurl` would point to an api or lambda function to send the contact email or signup for a email list.
 
